@@ -1,11 +1,5 @@
-import type { NextPage } from 'next';
+import { Main } from 'components/Main';
 
-const Home: NextPage = () => {
-   return (
-      <div>
-         <h1>Hello World!</h1>
-      </div>
-   );
-};
-
-export default Home;
+export default function Home() {
+   return <Main />;
+}
